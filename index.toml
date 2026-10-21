@@ -236,6 +236,11 @@ hash = "212366e375a970ec3e6de7c0d4331e2f145d7a98fa2fda632b5d0212343f46c5"
 metafile = true
 
 [[files]]
+file = "mods/ifoderi-rpg.pw.toml"
+hash = "99865d833c6bbfe93454f5414232365783fde4b1bdcb8b4e5a52fcf526b564bc"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "31f14494696d29dbc6bd2e1e2b43ba13aee96b45f4e0c12efecc6744927897cf"
 metafile = true
