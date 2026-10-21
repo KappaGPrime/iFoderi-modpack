@@ -1,0 +1,12 @@
+name = "Alacrity Lite"
+filename = "Alacrity Lite.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EyM9rWb2/versions/7ULrMyew/Alacrity%20Lite.zip"
+hash-format = "sha512"
+hash = "d0ade8f3aef849548974d540e61cc90d76c85728086d77b99ca7914936163cf3c5fe48b43840a0fa57e912cfd4f3b45b451ed204a16fd70e37e8c13f7251fac6"
+
+[update.modrinth]
+mod-id = "EyM9rWb2"
+version = "7ULrMyew"

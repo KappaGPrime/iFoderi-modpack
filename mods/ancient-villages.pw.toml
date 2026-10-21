@@ -1,0 +1,12 @@
+name = "Ancient Villages"
+filename = "ancientvillages-forge-1.20.1-0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7FUjxe3C/versions/bB3v7UPh/ancientvillages-forge-1.20.1-0.0.4.jar"
+hash-format = "sha512"
+hash = "5e87e4a5ad438876f0afb5089c1b2fd5799da1d163b62dc89315f8d3615acb7056cf1012cafe3f9408639d1a35e02cb3783bbdfe0ee5fbc94186be346b87ce51"
+
+[update.modrinth]
+mod-id = "7FUjxe3C"
+version = "bB3v7UPh"

@@ -1,0 +1,12 @@
+name = "Nirvana"
+filename = "nirvana-forge-1.2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7vLeZs9H/versions/N9rvH8VQ/nirvana-forge-1.2.5.jar"
+hash-format = "sha512"
+hash = "7e3fef8274cbf01fad36ad8fdb862174fc1c9b7715509aedd36b7f4fa87301747f5f2ee0a60658d28bca197c665b30f72b9cba806bdfec6e0ddf453b8ea873d9"
+
+[update.modrinth]
+mod-id = "7vLeZs9H"
+version = "N9rvH8VQ"

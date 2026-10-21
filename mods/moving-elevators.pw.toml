@@ -1,0 +1,12 @@
+name = "Moving Elevators"
+filename = "movingelevators-1.4.12-forge-mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9KZOe6HD/versions/noPT9kd8/movingelevators-1.4.12-forge-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "4b807ff88b7caab9eb72bb2d1f1f36d42b9182c38d96179421fd93bd625ee18c4a3ec6c75a4e603535fbec9ae2a21006da21a4b6338439b4f1c8935ea0693b64"
+
+[update.modrinth]
+mod-id = "9KZOe6HD"
+version = "noPT9kd8"

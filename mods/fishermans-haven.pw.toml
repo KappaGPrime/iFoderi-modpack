@@ -1,0 +1,12 @@
+name = "[HUGE UPDATE] Fisherman's Haven"
+filename = "fishermans_haven-3.0507-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cNrIBpSY/versions/TPUAFMog/fishermans_haven-3.0507-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "6ce371d696ece3c81af0e265188549a39a70acc7a323e56109f409c51d389bfbfd04846993c24a0bfb6604e81e911cd6f7ad979be482ba58ef5116bdefa88122"
+
+[update.modrinth]
+mod-id = "cNrIBpSY"
+version = "TPUAFMog"

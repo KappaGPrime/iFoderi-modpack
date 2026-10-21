@@ -1,0 +1,12 @@
+name = "Simple Voice Megaphone"
+filename = "simplemegaphone-forge-1.0.0-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/skfbT4IB/versions/IP8nWuEm/simplemegaphone-forge-1.0.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "02accb76c4728a8d333efc0e9517253682fab5f36ac02a304ed07ba1cc2784ee5c9f16418141e23ec72fd5488a1ccde1e94718cb669ace49a4720e0e5c226979"
+
+[update.modrinth]
+mod-id = "skfbT4IB"
+version = "IP8nWuEm"

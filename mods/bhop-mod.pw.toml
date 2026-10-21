@@ -1,0 +1,8 @@
+name = "Bhop+"
+filename = "bunnyhop-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/KappaGPrime/iFoderi-modpack/main/librerie/bunnyhop-1.0.0.jar"
+hash-format = "sha512"
+hash = "c826786bd1a2f9b78cf53516c3abee6df643ddc6e2d1ba2cdfc381b12b816551ac9dbcaf800935545f45336350b36ad61327d269f9ade77021ad6a396311c4e1"

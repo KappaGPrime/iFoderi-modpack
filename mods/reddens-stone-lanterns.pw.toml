@@ -1,0 +1,12 @@
+name = "Redden's Stone Lanterns"
+filename = "reddens_stone_lanterns_1.0.3-forge1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/plgWdsGJ/versions/G4tyc4Ir/reddens_stone_lanterns_1.0.3-forge1.20.1.jar"
+hash-format = "sha512"
+hash = "cc5e1226bd6914277a4afa3ca6cd3105bc876191c9e25fd10d18928062f62e8822fe664f3c1accb75afd8c95416a6b0435ca4663be605ccd32b684634920df25"
+
+[update.modrinth]
+mod-id = "plgWdsGJ"
+version = "G4tyc4Ir"

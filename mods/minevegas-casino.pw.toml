@@ -1,0 +1,8 @@
+name = "MineVegas Casino"
+filename = "minevegas-casino-neoforge-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/KappaGPrime/iFoderi-modpack/main/librerie/minevegas-casino-neoforge-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "27ec3630c4eb02512fdf0e663e54bc5423cdd9d0b121bf73623309918f7effaacdee04e5ff37024a0f9989c66c975767e3887a3166b70e756e1c898c47b54be3"

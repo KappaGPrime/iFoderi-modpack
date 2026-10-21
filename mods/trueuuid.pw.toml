@@ -1,0 +1,12 @@
+name = "TrueUUID"
+filename = "trueuuid-1.3.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fMgRLYNA/versions/DBcYjyan/trueuuid-1.3.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "a8e2800e80f602d4f496f2356e9c3b437f21c9ea864416fde49d80075fbb5535f0e0d3d5250b5b009058b8dff4812fb8e0d6df8f361fcb25b6d409e36abd71b3"
+
+[update.modrinth]
+mod-id = "fMgRLYNA"
+version = "DBcYjyan"

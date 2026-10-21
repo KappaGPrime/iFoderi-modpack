@@ -1,0 +1,12 @@
+name = "Modder Name Lib"
+filename = "modder_name_lib-1.20.1-forge-2026.08.31.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zSoTsKbP/versions/9wIgtf3P/modder_name_lib-1.20.1-forge-2026.08.31.jar"
+hash-format = "sha512"
+hash = "6e319e2b0b0c56e8eb247abbc8f588a1007a2ebef31d20906f7fe479997328653ef29212cc6828b42f0dbea823dd2a741ffb4dd0ec2f79477e8ff8cdbc49f5f7"
+
+[update.modrinth]
+mod-id = "zSoTsKbP"
+version = "9wIgtf3P"

@@ -1,0 +1,12 @@
+name = "Immersive Cooking"
+filename = "immersive_cooking-v2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6Pk9uXBE/versions/VJrrMSe7/immersive_cooking-v2.0.1.jar"
+hash-format = "sha512"
+hash = "e58c0343d19c8fa478da8701cd28398fa8d5415cba403e98a7044d6be826e842a4e01a972bd9a740ab3836aa13fc0f92e205faf23d75be1fee7ecceeeef460d6"
+
+[update.modrinth]
+mod-id = "6Pk9uXBE"
+version = "VJrrMSe7"

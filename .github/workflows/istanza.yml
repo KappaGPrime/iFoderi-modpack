@@ -1,0 +1,42 @@
+name: Istanza Prism e prova del pacchetto
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  istanza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Scarica packwiz-installer-bootstrap
+        run: curl -sSfL -o /tmp/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+      - name: Prova il pacchetto come un giocatore (scarica tutte le mod e controlla gli hash)
+        run: |
+          python3 -m http.server 8765 > /dev/null 2>&1 &
+          sleep 2
+          mkdir -p /tmp/prova && cd /tmp/prova
+          cp /tmp/packwiz-installer-bootstrap.jar .
+          java -jar packwiz-installer-bootstrap.jar -g -s client http://localhost:8765/pack.toml
+          echo "Mod installate: $(ls mods | wc -l)"
+          ls mods | grep -i ifoderi || echo "ATTENZIONE: iFoderi RPG non ancora nel pacchetto"
+      - name: Prepara lo zip dell'istanza Prism
+        run: |
+          mkdir -p "/tmp/ist/minecraft"
+          cp prism/instance.cfg prism/mmc-pack.json prism/ifoderi_icon.png /tmp/ist/
+          cp /tmp/packwiz-installer-bootstrap.jar /tmp/ist/minecraft/
+          cd /tmp/ist && zip -qr "/tmp/iFoderi-Second-Dawn-2.0.zip" .
+      - name: Pubblica lo zip nella release "istanza"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view istanza > /dev/null 2>&1 || gh release create istanza --title "Istanza Prism: iFoderi Second Dawn [2.0]" --notes "Scarica iFoderi-Second-Dawn-2.0.zip e importalo in Prism Launcher (vedi la guida nel README)."
+          gh release upload istanza /tmp/iFoderi-Second-Dawn-2.0.zip --clobber

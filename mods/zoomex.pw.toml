@@ -1,0 +1,12 @@
+name = "ZoomEx"
+filename = "zoomforforge-1.0.0-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/b9jSA1LQ/versions/bVZxFxwQ/zoomforforge-1.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "725cb2fe4767727eaef8b5a825664e8ed242bd0c29edd4d5c2145c90f2a4dffcb9d95007a4366361d73282800b774d6b7b071c0faa59b47894ed2882a31a80a7"
+
+[update.modrinth]
+mod-id = "b9jSA1LQ"
+version = "bVZxFxwQ"
