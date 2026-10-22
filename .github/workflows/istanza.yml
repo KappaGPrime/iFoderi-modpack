@@ -35,7 +35,11 @@ jobs:
         run: |
           mkdir -p "/tmp/ist/minecraft"
           cp prism/instance.cfg prism/mmc-pack.json prism/ifoderi_icon.png /tmp/ist/
+          # dentro lo zip c'e' gia' tutto (mod, config, tasti, shader, pacchetti di texture): il primo avvio non scarica niente,
+          # poi a ogni avvio l'aggiornatore controlla il pacchetto e scarica solo le novita'
+          cp -r /tmp/prova/. /tmp/ist/minecraft/
           cp /tmp/packwiz-installer-bootstrap.jar /tmp/ist/minecraft/
+          du -sh /tmp/ist
           cd /tmp/ist && zip -qr "/tmp/iFoderi-Second-Dawn-2.0.zip" .
       - name: Pubblica lo zip nella release "istanza"
         env:
