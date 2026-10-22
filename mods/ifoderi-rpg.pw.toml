@@ -1,8 +1,8 @@
 name = "iFoderi RPG"
-filename = "iFoderi-RPG-1.1.0.jar"
+filename = "iFoderi-RPG-1.1.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/KappaGPrime/iFoderi-modpack/releases/download/ifoderi-1.1.0/iFoderi-RPG-1.1.0.jar"
+url = "https://github.com/KappaGPrime/iFoderi-modpack/releases/download/ifoderi-1.1.1/iFoderi-RPG-1.1.1.jar"
 hash-format = "sha512"
-hash = "810bfbb48774f90eee69ea85ae03e647c949809dce73054aff613745429368c6ed5485feaac4486ed4a597381659a477c7392a51c8ff2a792a5953d6223330d9"
+hash = "27c4d52d4d0938604471196636843fd379d3ef162160b030a057b1b2bcd370dec4dd8ac924b33b00e5dfc1634a0db2f20f7084a9d200347512faab738d5d4864"

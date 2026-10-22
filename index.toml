@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/ifoderi-rpg.pw.toml"
-hash = "6e8deb05db40b59518d8da4a189bcef6d3bcb7e42410fc55cd96848e4302194f"
+hash = "ec3814d6ecce742a69ac72084314f73e8dd037ce554bd4d65edaf5605af43192"
 metafile = true
 
 [[files]]
