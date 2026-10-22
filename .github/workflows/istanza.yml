@@ -33,17 +33,19 @@ jobs:
           [ "$N" -ge 110 ] || { echo "Mancano delle mod!"; exit 1; }
       - name: Prepara lo zip dell'istanza Prism
         run: |
+          # zip leggero (da mettere su Telegram): solo l'istanza e l'aggiornatore, le mod le scarica al primo avvio
           mkdir -p "/tmp/ist/minecraft"
           cp prism/instance.cfg prism/mmc-pack.json prism/ifoderi_icon.png /tmp/ist/
-          # dentro lo zip c'e' gia' tutto (mod, config, tasti, shader, pacchetti di texture): il primo avvio non scarica niente,
-          # poi a ogni avvio l'aggiornatore controlla il pacchetto e scarica solo le novita'
+          cp /tmp/packwiz-installer-bootstrap.jar /tmp/ist/minecraft/
+          (cd /tmp/ist && zip -qr "/tmp/iFoderi-Second-Dawn-2.0.zip" .)
+          # zip completo: dentro gia' tutto (mod, config, tasti, shader), il primo avvio non scarica niente
           cp -r /tmp/prova/. /tmp/ist/minecraft/
           cp /tmp/packwiz-installer-bootstrap.jar /tmp/ist/minecraft/
-          du -sh /tmp/ist
-          cd /tmp/ist && zip -qr "/tmp/iFoderi-Second-Dawn-2.0.zip" .
+          (cd /tmp/ist && zip -qr "/tmp/iFoderi-Second-Dawn-2.0-completo.zip" .)
+          ls -la /tmp/*.zip
       - name: Pubblica lo zip nella release "istanza"
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release view istanza > /dev/null 2>&1 || gh release create istanza --title "Istanza Prism: iFoderi Second Dawn [2.0]" --notes "Scarica iFoderi-Second-Dawn-2.0.zip e importalo in Prism Launcher (vedi la guida nel README)."
-          gh release upload istanza /tmp/iFoderi-Second-Dawn-2.0.zip --clobber
+          gh release upload istanza /tmp/iFoderi-Second-Dawn-2.0.zip /tmp/iFoderi-Second-Dawn-2.0-completo.zip --clobber
