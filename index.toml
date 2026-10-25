@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/ifoderi.json"
+hash = "54511506d2778cd2ef7b42f1d00d23165dcff47928aa35646b729458c5df79a0"
+preserve = true
+
+[[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "46e60f0183f2cd74b64f629f9bc0316cc97883c94927575e307cc52f152071d2"
 preserve = true

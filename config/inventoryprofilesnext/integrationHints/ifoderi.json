@@ -1,0 +1,60 @@
+{
+  "net.p3pp3rf1y.sophisticatedstorage.client.gui.StorageScreen": {
+    "force": true,
+    "buttonHints": {
+      "SORT": {
+        "hide": true
+      },
+      "SORT_COLUMNS": {
+        "hide": true
+      },
+      "SORT_ROWS": {
+        "hide": true
+      },
+      "MOVE_TO_CONTAINER": {
+        "hide": true
+      },
+      "MOVE_TO_PLAYER": {
+        "hide": true
+      },
+      "CONTINUOUS_CRAFTING": {
+        "hide": true
+      },
+      "PROFILE_SELECTOR": {
+        "hide": true
+      },
+      "SHOW_EDITOR": {
+        "hide": true
+      }
+    }
+  },
+  "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": {
+    "force": true,
+    "buttonHints": {
+      "SORT": {
+        "hide": true
+      },
+      "SORT_COLUMNS": {
+        "hide": true
+      },
+      "SORT_ROWS": {
+        "hide": true
+      },
+      "MOVE_TO_CONTAINER": {
+        "hide": true
+      },
+      "MOVE_TO_PLAYER": {
+        "hide": true
+      },
+      "CONTINUOUS_CRAFTING": {
+        "hide": true
+      },
+      "PROFILE_SELECTOR": {
+        "hide": true
+      },
+      "SHOW_EDITOR": {
+        "hide": true
+      }
+    }
+  }
+}
