@@ -166,6 +166,11 @@ hash = "87851750f7d680cfbe655924fc208a6d72eb68cbaafb0173d46911daa75df62f"
 metafile = true
 
 [[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "9fca1f20ecc4e613c6e58e09937f178657f17c42bfeaecb3c07d84b8454be0d7"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "fdd01429630bacedf4a5cd8bf1ace3b547398b1d5dc0273d243f060e8eeeaac3"
 metafile = true
