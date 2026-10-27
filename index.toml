@@ -326,6 +326,11 @@ hash = "cddf7ff26b4d5fa4589eabc62b9a506a64487e19f0dd6946758f94deacc4a9c2"
 metafile = true
 
 [[files]]
+file = "mods/mcef.pw.toml"
+hash = "3db2760d24075b9753f152cd810ab32f45b65a65d9a26e9e16c305db92d789e2"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "4e1dd2356e161d6be6a91d3fac0f61f6c0630f3c3a9ca7e96ba7779ecd9bfb4f"
 metafile = true
@@ -538,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "0c84c2d26fdfe13324579ce2d010b7b39ebebab7f2f7ce35db0dd1dafe74051a"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "12f70206803cc51b2e0b8a2f43ab6065ea019b037ea877ad70f11f1d6444442e"
 metafile = true
 
 [[files]]
