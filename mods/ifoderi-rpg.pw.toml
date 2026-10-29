@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://github.com/KappaGPrime/iFoderi-modpack/releases/download/ifoderi-1.21.9/iFoderi-RPG-1.21.9.jar"
 hash-format = "sha512"
-hash = "39492bb71940aa00f31fef6bae24efc96c46d58cb3f7f5f7e21e09973bdc97f95cf9d288f0f4791ab2f720117864ab3eee5d2a4ae3e361a7161e4a8375ff3e40"
+hash = "fb532fde38b4429d881012cf97d72666245c4a12acef0c383fae2ea1251e1e3c3974bc709cb3cd9f574f48a896daa7c90b9ce9e450ff2b4cf60532437d6933a8"
