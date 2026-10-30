@@ -1,12 +1,12 @@
 name = "iFoderi Second Dawn [2.0]"
 author = "KappaG_Prime"
-version = "1.22.9"
+version = "1.24.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5dd5a2390b6195a0b80944932ae701d76702bcc416f94e4c18eef64ad62341e6"
+hash = "e6473e9ae1224b21fb76aa033b689ef74c05f8f9a63b18a03fd60c4556b89c47"
 
 [versions]
 minecraft = "1.20.1"
