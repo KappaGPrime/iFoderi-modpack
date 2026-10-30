@@ -86,6 +86,11 @@ hash = "d22034498baad72c2a23189b87cb64892607edc9538112446fc44aa66bed1255"
 metafile = true
 
 [[files]]
+file = "mods/born-in-chaos.pw.toml"
+hash = "8e4774ffc1aa2ecbddea8343f7a480d5f8cb1bbed196ae7192cf0e0e09c75ee5"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "73467c7dd5ef4c10368c014dd208392ac0f3b763b43d7f8ec00aa4ac49972738"
 metafile = true
