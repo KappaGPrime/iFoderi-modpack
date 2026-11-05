@@ -146,6 +146,16 @@ hash = "b941a1703047e439763857e42f2fad0995f6c03e0733e23e8539dfdc92aeb980"
 metafile = true
 
 [[files]]
+file = "mods/easy-anvils.pw.toml"
+hash = "4cb7a882dfc2cb0e8802947d6859a1dddccd73b9d95d47b08b58d774c7b786be"
+metafile = true
+
+[[files]]
+file = "mods/easy-magic.pw.toml"
+hash = "f5ea0af4db11bae0225f2f15f81b436b98de50755a9625ee2b32ce5ff514e670"
+metafile = true
+
+[[files]]
 file = "mods/easy-npc-config-ui.pw.toml"
 hash = "4a6f66cd18a843d0b05b251ca89f7e19a08bea9a7be07492e725384bb9c121b7"
 metafile = true
@@ -247,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/ifoderi-rpg.pw.toml"
-hash = "7026ae2f1a1028b0c0f18518fc5bb78359dacabe82946895227c5e5185939e3e"
+hash = "8b0b48a1ddf853351905c01bc560dba81abcb92a9d4ac2a6875155ca4396dc01"
 metafile = true
 
 [[files]]
@@ -541,6 +551,11 @@ hash = "aa62a45183101b53c5688a0e7ab6aa4520363804c96d7cae7dc50eaa6f295142"
 metafile = true
 
 [[files]]
+file = "mods/trashslot.pw.toml"
+hash = "6d8d9fbfb670cc4a31323a4f26318728b8f542896456cbb8a8565fca7a6b3957"
+metafile = true
+
+[[files]]
 file = "mods/trueuuid.pw.toml"
 hash = "c250665935eb3b5b00d94f574111e6d216434ab81700ed89a0aad9d66d944235"
 metafile = true
@@ -613,19 +628,4 @@ preserve = true
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "21189c433045791d91c885d431cbe296929dc5513e1cbe2cfb007a8ee10a0ecb"
-metafile = true
-
-[[files]]
-file = "mods/easy-anvils.pw.toml"
-hash = "4cb7a882dfc2cb0e8802947d6859a1dddccd73b9d95d47b08b58d774c7b786be"
-metafile = true
-
-[[files]]
-file = "mods/easy-magic.pw.toml"
-hash = "f5ea0af4db11bae0225f2f15f81b436b98de50755a9625ee2b32ce5ff514e670"
-metafile = true
-
-[[files]]
-file = "mods/trashslot.pw.toml"
-hash = "6d8d9fbfb670cc4a31323a4f26318728b8f542896456cbb8a8565fca7a6b3957"
 metafile = true
