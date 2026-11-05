@@ -86,6 +86,11 @@ hash = "d22034498baad72c2a23189b87cb64892607edc9538112446fc44aa66bed1255"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "7084dc6feb02ed4f41d7474335c56d82f6ffc96f39669b721039dc3d782d2cba"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "73467c7dd5ef4c10368c014dd208392ac0f3b763b43d7f8ec00aa4ac49972738"
 metafile = true
@@ -181,6 +186,11 @@ hash = "9fca1f20ecc4e613c6e58e09937f178657f17c42bfeaecb3c07d84b8454be0d7"
 metafile = true
 
 [[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "231bee857a8303582f7c859e734b06ff03f84ed6ab31671cb1354c650ce879b0"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "fdd01429630bacedf4a5cd8bf1ace3b547398b1d5dc0273d243f060e8eeeaac3"
 metafile = true
@@ -257,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/ifoderi-rpg.pw.toml"
-hash = "8b0b48a1ddf853351905c01bc560dba81abcb92a9d4ac2a6875155ca4396dc01"
+hash = "3ac7a02fa48e357ca4b99c3a9542553681ef649310e4e9dccc2720a72cd6d3b9"
 metafile = true
 
 [[files]]
@@ -628,14 +638,4 @@ preserve = true
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "21189c433045791d91c885d431cbe296929dc5513e1cbe2cfb007a8ee10a0ecb"
-metafile = true
-
-[[files]]
-file = "mods/enchantment-descriptions.pw.toml"
-hash = "231bee857a8303582f7c859e734b06ff03f84ed6ab31671cb1354c650ce879b0"
-metafile = true
-
-[[files]]
-file = "mods/bookshelf-lib.pw.toml"
-hash = "7084dc6feb02ed4f41d7474335c56d82f6ffc96f39669b721039dc3d782d2cba"
 metafile = true
