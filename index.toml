@@ -629,3 +629,13 @@ preserve = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "21189c433045791d91c885d431cbe296929dc5513e1cbe2cfb007a8ee10a0ecb"
 metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "231bee857a8303582f7c859e734b06ff03f84ed6ab31671cb1354c650ce879b0"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "7084dc6feb02ed4f41d7474335c56d82f6ffc96f39669b721039dc3d782d2cba"
+metafile = true
