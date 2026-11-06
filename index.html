@@ -1,0 +1,94 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wiki di iFoderi RPG · Wiki iFoderi</title><link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0e0b08;--bg2:#17120d;--panel:#211a12;--panel2:#2b2117;--line:#4a3a26;--text:#efe6d4;--muted:#b3a58c;--gold:#f0b94a;--gold2:#ffd98a;--accent:#f0b94a;--chip:#33281b;--shadow:0 6px 24px rgba(0,0,0,.45)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 70% -10%,#3a2a14 0%,transparent 60%),var(--bg);color:var(--text);font:16px/1.6 'Inter',system-ui,sans-serif}
+a{color:var(--gold)}img{image-rendering:pixelated}
+#side{position:fixed;inset:0 auto 0 0;width:264px;overflow:auto;background:linear-gradient(180deg,var(--panel),var(--bg2));border-right:2px solid var(--line);padding:16px 12px 40px}
+.brand{display:flex;gap:10px;align-items:center;text-decoration:none;margin:0 4px 14px}.brand img{width:48px;height:48px;border-radius:10px;image-rendering:auto}
+.brand span{font:700 24px 'Cinzel',Georgia,serif;color:var(--gold);line-height:1}.brand small{display:block;font:600 11px 'Inter',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+#q{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);margin-bottom:6px;font:inherit;font-size:14px}
+.grp{font:700 11px 'Inter',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:16px 8px 6px}
+.nl{display:flex;align-items:center;gap:9px;padding:5px 8px;border-radius:8px;text-decoration:none;color:var(--text);font-size:14.5px}
+.nl img{width:22px;height:22px;flex:none;border-radius:4px}.nl i.dot{width:22px;height:22px;flex:none;position:relative}.nl i.dot::after{content:"";position:absolute;left:8px;top:8px;width:6px;height:6px;border-radius:2px;background:var(--line);transform:rotate(45deg)}.nl.on i.dot::after{background:var(--gold)}
+.nl:hover{background:var(--chip)}.nl.on{background:var(--panel2);color:var(--gold2);box-shadow:inset 3px 0 0 var(--gold)}
+main{margin-left:264px;padding:34px 48px 60px;max-width:1120px}
+h1{font:700 40px/1.15 'Cinzel',Georgia,serif;color:var(--gold);margin:0 0 6px;text-shadow:0 2px 0 rgba(0,0,0,.4)}
+h2{font:700 24px 'Cinzel',Georgia,serif;margin:36px 0 12px;color:var(--gold2);display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--line),transparent)}
+h3{margin:20px 0 8px}.lead{font-size:18px;color:var(--muted);max-width:760px}
+.hero{display:flex;gap:22px;align-items:center;padding:22px;border-radius:16px;border:2px solid var(--tint,var(--line));background:linear-gradient(135deg,var(--tint2,var(--panel)) 0%,var(--panel) 70%);box-shadow:var(--shadow);margin-bottom:10px}
+.hero img{width:110px;height:110px;flex:none;border-radius:16px}.hero .role{font:700 12px 'Inter';letter-spacing:.18em;text-transform:uppercase;color:var(--tint,var(--gold))}
+.card,.node{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:8px 0;box-shadow:0 1px 0 rgba(255,255,255,.03) inset}
+.node b{color:var(--gold2)}.node p{margin:4px 0 0;color:var(--muted);font-size:14.5px}.node.fin{border-color:var(--gold);background:linear-gradient(135deg,#3a2a12,var(--panel))}
+.nodes{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.branch{border-left:4px solid var(--bc,var(--gold));padding-left:14px;margin:26px 0}.branch .bh{display:flex;gap:14px;align-items:center}.branch .bh img{width:64px;height:64px}
+.branch .bh b{font:700 21px 'Cinzel',serif;color:var(--bc,var(--gold))}.branch .bh span{color:var(--muted);display:block;font-size:14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.tile{display:flex;gap:12px;align-items:center;padding:12px;border-radius:12px;border:2px solid var(--tint,var(--line));background:linear-gradient(135deg,var(--tint2,var(--panel)),var(--panel) 80%);text-decoration:none;color:var(--text);transition:transform .12s}
+.tile:hover{transform:translateY(-2px)}.tile img{width:52px;height:52px;border-radius:10px}.tile b{display:block;font:700 17px 'Cinzel',serif;color:var(--text)}.tile span{font-size:13px;color:var(--muted)}
+.it{display:inline-flex;align-items:center;gap:5px;background:var(--chip);border:1px solid var(--line);border-radius:7px;padding:1px 7px;white-space:nowrap;font-size:14px;color:var(--text);text-decoration:none}
+a.it:hover{border-color:var(--gold)}.ico{width:20px;height:20px}
+.boss img{width:100%;height:220px;object-fit:contain;image-rendering:auto;background:radial-gradient(circle at 50% 60%,#3a2a14,transparent 70%);border-radius:10px}
+.item{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:start}.item .big{width:64px;height:64px;background:var(--chip);border:1px solid var(--line);border-radius:12px;padding:8px}
+.item h3{margin:0 0 4px;font:700 19px 'Cinzel',serif;color:var(--gold2)}.item ul{margin:6px 0 0;padding-left:18px}.muted{color:var(--muted)}
+table.grid{border-collapse:separate;border-spacing:4px;margin:6px 0}table.grid td{background:var(--chip);border:1px solid var(--line);border-radius:8px;width:116px;height:48px;text-align:center;font-size:12.5px;padding:3px}
+table.list{border-collapse:collapse;width:100%;background:var(--panel);border-radius:12px;overflow:hidden}table.list td,table.list th{border-bottom:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:middle}table.list th{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:0 9px;margin-left:8px;color:var(--muted);vertical-align:middle}
+.tag.facile{color:#7fd17f;border-color:#3f6b3f}.tag.media{color:#e8c25a;border-color:#6b5a2a}.tag.difficile{color:#ff8a6a;border-color:#6b3a2a}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}.toc a{background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px 12px;text-decoration:none;color:var(--text);font-size:14px}
+.home-hero{display:flex;gap:26px;align-items:center;padding:28px;border-radius:20px;background:linear-gradient(135deg,#3b2a14,#1c140c);border:2px solid var(--line);box-shadow:var(--shadow)}
+.home-hero img{width:150px;height:150px;border-radius:24px;image-rendering:auto}.home-hero h1{font-size:46px}
+footer{margin-top:50px;color:var(--muted);font-size:13px}
+#menu{display:none}
+@media (max-width:860px){#side{transform:translateX(-100%);transition:.2s;z-index:5;width:84%}#side.open{transform:none;box-shadow:var(--shadow)}main{margin:0;padding:64px 16px 30px}
+#menu{display:block;position:fixed;top:12px;left:12px;z-index:6;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);font:inherit}
+.hero,.home-hero{flex-direction:column;text-align:center}h1{font-size:32px}.home-hero h1{font-size:34px}}
+</style></head><body>
+<button id="menu" onclick="document.getElementById('side').classList.toggle('open')">☰ Menu</button>
+<nav id="side"><a class="brand" href="index.html"><img src="img/logo.png" alt=""><span>iFoderi<small>Wiki RPG</small></span></a>
+<input id="q" placeholder="Cerca una pagina…" oninput="flt(this.value)" aria-label="Cerca">
+<div class="grp">Il server</div>
+<a class="nl on" href="index.html"><img src="img/logo.png" alt="">Home</a>
+<a class="nl" href="crediti.html"><i class="dot"></i>Crediti</a>
+<div class="grp">Guida</div>
+<a class="nl" href="guida-per-iniziare.html"><i class="dot"></i>Per iniziare</a>
+<a class="nl" href="guida-le-classi.html"><i class="dot"></i>Le classi</a>
+<a class="nl" href="guida-livelli-e-schede.html"><i class="dot"></i>Livelli e schede</a>
+<a class="nl" href="guida-combattere.html"><i class="dot"></i>Combattere</a>
+<a class="nl" href="guida-missioni.html"><i class="dot"></i>Missioni</a>
+<a class="nl" href="guida-raid.html"><i class="dot"></i>Raid</a>
+<a class="nl" href="guida-la-torre.html"><i class="dot"></i>La Torre</a>
+<a class="nl" href="guida-dungeon-e-boss.html"><i class="dot"></i>Dungeon e boss</a>
+<a class="nl" href="guida-mercanti-di-67city.html"><i class="dot"></i>Mercanti di 67city</a>
+<a class="nl" href="guida-gilde.html"><i class="dot"></i>Gilde</a>
+<a class="nl" href="guida-gruppo-party.html"><i class="dot"></i>Gruppo (party)</a>
+<a class="nl" href="guida-zaino-e-bauli.html"><i class="dot"></i>Zaino e bauli</a>
+<a class="nl" href="guida-viaggiare.html"><i class="dot"></i>Viaggiare</a>
+<a class="nl" href="guida-mostri-da-conoscere.html"><i class="dot"></i>Mostri da conoscere</a>
+<a class="nl" href="guida-comandi-utili.html"><i class="dot"></i>Comandi utili</a>
+<a class="nl" href="guida-titoli.html"><i class="dot"></i>Titoli</a>
+<a class="nl" href="guida-regole-in-breve.html"><i class="dot"></i>Regole in breve</a>
+<div class="grp">Classi</div>
+<a class="nl" href="classe-warrior.html"><img src="img/classi/warrior.png" alt="">Guerriero</a>
+<a class="nl" href="classe-barbarian.html"><img src="img/classi/barbarian.png" alt="">Barbaro</a>
+<a class="nl" href="classe-tank.html"><img src="img/classi/tank.png" alt="">Templare</a>
+<a class="nl" href="classe-ranger.html"><img src="img/classi/ranger.png" alt="">Ranger</a>
+<a class="nl" href="classe-rogue.html"><img src="img/classi/rogue.png" alt="">Ladro</a>
+<a class="nl" href="classe-mage.html"><img src="img/classi/mage.png" alt="">Mago</a>
+<a class="nl" href="classe-sorcerer.html"><img src="img/classi/sorcerer.png" alt="">Stregone</a>
+<a class="nl" href="classe-cleric.html"><img src="img/classi/cleric.png" alt="">Chierico</a>
+<div class="grp">Schede</div>
+<a class="nl" href="scheda-mining.html"><i class="dot"></i>Minatore</a>
+<a class="nl" href="scheda-costruttore.html"><i class="dot"></i>Costruttore</a>
+<a class="nl" href="scheda-raccolta.html"><i class="dot"></i>Lavoratore</a>
+<a class="nl" href="scheda-domatore.html"><i class="dot"></i>Domatore</a>
+<a class="nl" href="scheda-alchimista.html"><i class="dot"></i>Alchimista</a>
+<a class="nl" href="scheda-casino.html"><i class="dot"></i>Ludopatico</a>
+<div class="grp">Elenchi</div>
+<a class="nl" href="oggetti.html"><img src="img/oggetti/bastone_dei_serafini.png" alt="">Oggetti e armi</a>
+<a class="nl" href="missioni.html"><img src="img/oggetti/pergamena_dell_oblio.png" alt="">Missioni</a>
+<a class="nl" href="mercanti.html"><img src="img/oggetti/fiche_100.png" alt="">Mercanti</a>
+<a class="nl" href="raid.html"><img src="img/oggetti/corno_re_demoni.png" alt="">Raid</a></nav><main><div class="home-hero"><img src="img/logo.png" alt=""><div><h1>Wiki di iFoderi RPG</h1><p class="lead">Tutto quello che serve per giocare su iFoderi RPG.</p></div></div><h2>Le classi</h2><div class="tiles"><a class="tile" style="--tint:#6b4a2c;--tint2:#2a1d12" href="classe-warrior.html"><img src="img/classi/warrior.png" alt=""><div><b>Guerriero</b><span>Spada e scudo, equilibrato</span></div></a><a class="tile" style="--tint:#d40000;--tint2:#3a0808" href="classe-barbarian.html"><img src="img/classi/barbarian.png" alt=""><div><b>Barbaro</b><span>Asce, furia e rabbia</span></div></a><a class="tile" style="--tint:#3a3a3a;--tint2:#0b0b0b" href="classe-tank.html"><img src="img/classi/tank.png" alt=""><div><b>Templare</b><span>Incassa, provoca e protegge</span></div></a><a class="tile" style="--tint:#6fcf4a;--tint2:#1c3315" href="classe-ranger.html"><img src="img/classi/ranger.png" alt=""><div><b>Ranger</b><span>Arco e balestra, colpisce gli Enderman</span></div></a><a class="tile" style="--tint:#e6d23a;--tint2:#33300a" href="classe-rogue.html"><img src="img/classi/rogue.png" alt=""><div><b>Ladro</b><span>Invisibile, veloce, letale alle spalle</span></div></a><a class="tile" style="--tint:#3a8fd9;--tint2:#0f2238" href="classe-mage.html"><img src="img/classi/mage.png" alt=""><div><b>Mago</b><span>Impara e domina gli incantesimi</span></div></a><a class="tile" style="--tint:#9b4dd9;--tint2:#24123a" href="classe-sorcerer.html"><img src="img/classi/sorcerer.png" alt=""><div><b>Stregone</b><span>Cinque elementi, una sola scelta</span></div></a><a class="tile" style="--tint:#e9e6dd;--tint2:#4a4438" href="classe-cleric.html"><img src="img/classi/cleric.png" alt=""><div><b>Chierico</b><span>Cura, protegge e punisce i non morti</span></div></a></div><h2>Guida</h2><div class="tiles"><a class="tile" href="guida-per-iniziare.html"><div><b>Per iniziare</b><span>Appena entri ricevi il Regolamento: leggilo, sono poche regole. Se lo perdi: /regolamento.</span></div></a><a class="tile" href="guida-le-classi.html"><div><b>Le classi</b><span>La classe si sceglie dalle schede delle abilità (tasto K). Ogni classe ha la sua vita, arm</span></div></a><a class="tile" href="guida-livelli-e-schede.html"><div><b>Livelli e schede</b><span>Salendo di livello prendi punti da spendere nelle schede delle abilità (tasto K).</span></div></a><a class="tile" href="guida-combattere.html"><div><b>Combattere</b><span>Si combatte con le combo di Better Combat: ogni arma ha i suoi colpi e il suo ritmo.</span></div></a><a class="tile" href="guida-missioni.html"><div><b>Missioni</b><span>Il tasto J apre le missioni: principali (gialle), secondarie (verdi) e giornaliere (celest</span></div></a><a class="tile" href="guida-raid.html"><div><b>Raid</b><span>Più volte al giorno, a orari fissi, nel mondo compare un boss dei raid: tutti vedono un av</span></div></a><a class="tile" href="guida-la-torre.html"><div><b>La Torre</b><span>La Torre è una sfida di dieci piani: ondate di mostri e un guardiano da battere per salire</span></div></a><a class="tile" href="guida-dungeon-e-boss.html"><div><b>Dungeon e boss</b><span>Nel mondo ci sono dungeon protetti: non si possono rompere, ma le porte e le gabbie da apr</span></div></a><a class="tile" href="guida-mercanti-di-67city.html"><div><b>Mercanti di 67city</b><span>Il Fabbro potenzia armi e corazze con le pietre di potenziamento: ogni livello è più diffi</span></div></a><a class="tile" href="guida-gilde.html"><div><b>Gilde</b><span>Il tasto G apre le gilde: puoi crearne una o entrare in quelle esistenti.</span></div></a><a class="tile" href="guida-gruppo-party.html"><div><b>Gruppo (party)</b><span>Con /party crei un gruppo con gli amici: l&#x27;esperienza dei mostri si divide tra chi è vicin</span></div></a><a class="tile" href="guida-zaino-e-bauli.html"><div><b>Zaino e bauli</b><span>Aprendo un baule si apre anche lo zaino accanto: shift + clic sposta la roba dal baule all</span></div></a><a class="tile" href="guida-viaggiare.html"><div><b>Viaggiare</b><span>Le pietre miliari ti teletrasportano, ma solo a quelle che hai già raggiunto a piedi.</span></div></a><a class="tile" href="guida-mostri-da-conoscere.html"><div><b>Mostri da conoscere</b><span>Draghi: enormi, sputano fuoco o ghiaccio. Lasciali stare finché non sei pronto.</span></div></a><a class="tile" href="guida-comandi-utili.html"><div><b>Comandi utili</b><span>/guida apre questa Guida, ovunque.</span></div></a><a class="tile" href="guida-titoli.html"><div><b>Titoli</b><span>Giocando sblocchi dei titoli: salendo di livello, battendo i boss dei raid e scalando la T</span></div></a><a class="tile" href="guida-regole-in-breve.html"><div><b>Regole in breve</b><span>Gioca con calma, niente exploit né cheat, rispetta gli altri e le loro costruzioni.</span></div></a></div><h2>Schede e elenchi</h2><div class="tiles"><a class="tile" href="scheda-mining.html"><div><b>Minatore</b><span>Scheda delle abilità</span></div></a><a class="tile" href="scheda-costruttore.html"><div><b>Costruttore</b><span>Scheda delle abilità</span></div></a><a class="tile" href="scheda-raccolta.html"><div><b>Lavoratore</b><span>Scheda delle abilità</span></div></a><a class="tile" href="scheda-domatore.html"><div><b>Domatore</b><span>Scheda delle abilità</span></div></a><a class="tile" href="scheda-alchimista.html"><div><b>Alchimista</b><span>Scheda delle abilità</span></div></a><a class="tile" href="scheda-casino.html"><div><b>Ludopatico</b><span>Scheda delle abilità</span></div></a><a class="tile" href="oggetti.html"><img src="img/oggetti/bastone_dei_serafini.png" alt=""><div><b>Oggetti e armi</b><span>Elenco completo</span></div></a><a class="tile" href="missioni.html"><img src="img/oggetti/pergamena_dell_oblio.png" alt=""><div><b>Missioni</b><span>Elenco completo</span></div></a><a class="tile" href="mercanti.html"><img src="img/oggetti/fiche_100.png" alt=""><div><b>Mercanti</b><span>Elenco completo</span></div></a><a class="tile" href="raid.html"><img src="img/oggetti/corno_re_demoni.png" alt=""><div><b>Raid</b><span>Elenco completo</span></div></a></div><footer>Wiki generata dai file della mod iFoderi RPG · server iFoderi</footer></main><script>function flt(v){v=v.toLowerCase();document.querySelectorAll('.nl').forEach(a=>{a.style.display=a.textContent.toLowerCase().includes(v)?'':'none'})}</script></body></html>
