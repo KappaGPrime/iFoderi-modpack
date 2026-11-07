@@ -564,6 +564,11 @@ hash = "5241f7a424288dfd704a44122aacae3affbdedc968e22a610dc52ba3b65cb7a8"
 metafile = true
 
 [[files]]
+file = "mods/tacz.pw.toml"
+hash = "652658145f9d95a29653a22d340a08e988d8b51124bbb7df5e31e994c7a68b64"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "aa62a45183101b53c5688a0e7ab6aa4520363804c96d7cae7dc50eaa6f295142"
 metafile = true
