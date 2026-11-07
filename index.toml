@@ -16,6 +16,14 @@ hash = "a43404e8ac6167ea0bcfa9f1e1d6d25e6b6b5e40e3c91c8880f973ac57c0f17b"
 preserve = true
 
 [[files]]
+file = "emotes/ifoderi_sei_sette.json"
+hash = "d9e2ccb53529bbc7af06f5632554c1ce2afda2a8fbbee3ccb23bf5570623b8ed"
+
+[[files]]
+file = "emotes/ifoderi_siuuu.json"
+hash = "6c46cf414679670ea4e859f287a91b55419808a0d1a1eef8f34259c55283405c"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "9431d4a234f2b8673e1d5c2afc14a7a1e8752917537da14289a290f6a0bb63ed"
 metafile = true

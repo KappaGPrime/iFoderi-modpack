@@ -4,7 +4,7 @@ import hashlib, os, re, sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # cartelle e file che finiscono nel gioco dei giocatori
-CARTELLE = ['mods', 'resourcepacks', 'shaderpacks', 'config']
+CARTELLE = ['mods', 'resourcepacks', 'shaderpacks', 'config', 'emotes']
 # impostazioni: messe solo alla prima installazione, poi non si toccano piu' (i giocatori possono cambiarle)
 SOLO_LA_PRIMA_VOLTA = ['options.txt', 'servers.dat', 'config/']
 
