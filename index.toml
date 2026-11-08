@@ -24,11 +24,6 @@ file = "emotes/ifoderi_siuuu.json"
 hash = "6c46cf414679670ea4e859f287a91b55419808a0d1a1eef8f34259c55283405c"
 
 [[files]]
-file = "mods/accessories.pw.toml"
-hash = "9431d4a234f2b8673e1d5c2afc14a7a1e8752917537da14289a290f6a0bb63ed"
-metafile = true
-
-[[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "4bcd07cf793834e4f99bf7e5d57d4046b8ce385edc674418ca57dea69e849fad"
 metafile = true
