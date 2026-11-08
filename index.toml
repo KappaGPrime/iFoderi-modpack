@@ -494,6 +494,11 @@ hash = "7f287b3ecdbdf9f05a3739efb4ed943ed1af1c6beb1bf4930beda399dfbaafd7"
 metafile = true
 
 [[files]]
+file = "mods/simply-bows.pw.toml"
+hash = "a663610bad955a6461acd54ec7d9be3a059266f57d80592aefb40f7d708d2866"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "2f0ac6d1a03205762020eda375eb328e51d41710b803e7c99fb79a3ea5a9c901"
 metafile = true

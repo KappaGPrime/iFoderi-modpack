@@ -1,0 +1,8 @@
+name = "Simply Bows"
+filename = "simplybows-forge-neoforge-0.1.4.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/KappaGPrime/iFoderi-modpack/main/librerie/simplybows-forge-neoforge-0.1.4.jar"
+hash-format = "sha512"
+hash = "a10d111a238cd4bdce07aaa62bb6774cb47f9fc1150650e88a656dae557d6f2f700c3b007ce886a13a8332b88380f90f03b1e80bdfba7144c37a7139f68923e7"
