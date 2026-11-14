@@ -1,0 +1,105 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forgiatura, bastoni e bacchette · Wiki iFoderi</title><link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#111113;--bg2:#18181b;--panel:#202024;--panel2:#2a2a30;--line:#3e3e46;--text:#ecebe6;--muted:#a9a79f;--gold:#e9b949;--gold2:#ffd98a;--accent:#e9b949;--chip:#28282d;--shadow:0 6px 24px rgba(0,0,0,.5)}
+@font-face{font-family:'MC';src:url('fonts/Minecraft.ttf') format('truetype');font-display:swap}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 70% -10%,#2b2414 0%,transparent 60%),repeating-linear-gradient(0deg,rgba(255,255,255,.012) 0 2px,transparent 2px 4px),var(--bg);color:var(--text);font:16px/1.6 'Inter',system-ui,sans-serif}
+a{color:var(--gold)}img{image-rendering:pixelated}
+#side{position:fixed;inset:0 auto 0 0;width:264px;overflow:auto;background:linear-gradient(180deg,var(--panel),var(--bg2));border-right:2px solid var(--line);padding:16px 12px 40px}
+.brand{display:flex;gap:10px;align-items:center;text-decoration:none;margin:0 4px 14px}.brand img{width:48px;height:48px;border-radius:10px;image-rendering:auto}
+.brand span{font:400 24px 'MC',monospace;color:var(--gold);line-height:1}.brand small{display:block;font:600 11px 'Inter',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+#q{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);margin-bottom:6px;font:inherit;font-size:14px}
+.grp{font:700 11px 'Inter',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:16px 8px 6px}
+.nl{display:flex;align-items:center;gap:9px;padding:5px 8px;border-radius:8px;text-decoration:none;color:var(--text);font-size:14.5px}
+.nl img{width:22px;height:22px;flex:none;border-radius:4px}.nl i.dot{width:22px;height:22px;flex:none;position:relative}.nl i.dot::after{content:"";position:absolute;left:8px;top:8px;width:6px;height:6px;border-radius:2px;background:var(--line);transform:rotate(45deg)}.nl.on i.dot::after{background:var(--gold)}
+.nl:hover{background:var(--chip)}.nl.on{background:var(--panel2);color:var(--gold2);box-shadow:inset 3px 0 0 var(--gold)}
+main{margin-left:264px;padding:34px 48px 60px;max-width:1120px}
+h1{font:400 38px/1.2 'MC',monospace;color:var(--gold);margin:0 0 6px;text-shadow:0 2px 0 rgba(0,0,0,.4)}
+h2{font:400 24px 'MC',monospace;margin:36px 0 12px;color:var(--gold2);display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--line),transparent)}
+h3{margin:20px 0 8px}.lead{font-size:18px;color:var(--muted);max-width:760px}
+.hero{display:flex;gap:22px;align-items:center;padding:22px;border-radius:16px;border:2px solid var(--tint,var(--line));background:linear-gradient(135deg,var(--tint2,var(--panel)) 0%,var(--panel) 70%);box-shadow:var(--shadow);margin-bottom:10px}
+.hero img{width:110px;height:110px;flex:none;border-radius:16px}.hero .role{font:700 12px 'Inter';letter-spacing:.18em;text-transform:uppercase;color:var(--tint,var(--gold))}
+.card,.node{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:8px 0;box-shadow:0 1px 0 rgba(255,255,255,.03) inset}
+.node b{color:var(--gold2)}.node p{margin:4px 0 0;color:var(--muted);font-size:14.5px}.node.fin{border-color:var(--gold);background:linear-gradient(135deg,#3a3016,var(--panel))}
+.nodes{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.branch{border-left:4px solid var(--bc,var(--gold));padding-left:14px;margin:26px 0}.branch .bh{display:flex;gap:14px;align-items:center}.branch .bh img{width:64px;height:64px}
+.branch .bh b{font:700 21px 'MC',monospace;color:var(--bc,var(--gold))}.branch .bh span{color:var(--muted);display:block;font-size:14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.tile{display:flex;gap:12px;align-items:center;padding:12px;border-radius:12px;border:2px solid var(--tint,var(--line));background:linear-gradient(135deg,var(--tint2,var(--panel)),var(--panel) 80%);text-decoration:none;color:var(--text);transition:transform .12s}
+.tile:hover{transform:translateY(-2px)}.tile img{width:52px;height:52px;border-radius:10px}.tile b{display:block;font:700 17px 'MC',monospace;color:var(--text)}.tile span{font-size:13px;color:var(--muted)}
+.it{display:inline-flex;align-items:center;gap:5px;background:var(--chip);border:1px solid var(--line);border-radius:7px;padding:1px 7px;white-space:nowrap;font-size:14px;color:var(--text);text-decoration:none}
+a.it:hover{border-color:var(--gold)}.ico{width:20px;height:20px}
+.boss img{width:100%;height:220px;object-fit:contain;image-rendering:auto;background:radial-gradient(circle at 50% 60%,#3a2a14,transparent 70%);border-radius:10px}
+.item{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:start}.item .big{width:64px;height:64px;background:var(--chip);border:1px solid var(--line);border-radius:12px;padding:8px}
+.item h3{margin:0 0 4px;font:700 19px 'MC',monospace;color:var(--gold2)}.item ul{margin:6px 0 0;padding-left:18px}.muted{color:var(--muted)}
+table.grid{border-collapse:separate;border-spacing:4px;margin:6px 0}table.grid td{background:var(--chip);border:1px solid var(--line);border-radius:8px;width:116px;height:48px;text-align:center;font-size:12.5px;padding:3px}
+table.list{border-collapse:collapse;width:100%;background:var(--panel);border-radius:12px;overflow:hidden}table.list td,table.list th{border-bottom:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:middle}table.list th{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:0 9px;margin-left:8px;color:var(--muted);vertical-align:middle}
+.tag.facile{color:#7fd17f;border-color:#3f6b3f}.tag.media{color:#e8c25a;border-color:#6b5a2a}.tag.difficile{color:#ff8a6a;border-color:#6b3a2a}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}.toc a{background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px 12px;text-decoration:none;color:var(--text);font-size:14px}
+.home-hero{display:flex;gap:26px;align-items:center;padding:28px;border-radius:20px;background:linear-gradient(135deg,#2e2a22,#16161a);border:2px solid var(--line);box-shadow:var(--shadow)}
+.home-hero img{width:150px;height:150px;border-radius:24px;image-rendering:auto}.home-hero h1{font-size:46px}
+footer{margin-top:50px;color:var(--muted);font-size:13px}
+#menu{display:none}
+.gal{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 12px}.gal figure{margin:0;width:104px;text-align:center}.gal figure img{width:96px;height:96px;background:radial-gradient(circle,#2f2f36,#1d1d21 70%);border:1px solid var(--line);border-radius:10px;padding:4px}
+.gal figcaption{font-size:12px;color:var(--muted);line-height:1.25;margin-top:3px}.gal figure.foto{width:auto}.gal figure.foto img{width:auto;height:260px;image-rendering:auto;padding:10px}
+.arma h3{font:400 20px 'MC',monospace;color:var(--gold2);margin:4px 0 6px}.node.item{display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:center}.node.item .big{width:64px;height:64px}
+@media (max-width:860px){#side{transform:translateX(-100%);transition:.2s;z-index:5;width:84%}#side.open{transform:none;box-shadow:var(--shadow)}main{margin:0;padding:64px 16px 30px}
+#menu{display:block;position:fixed;top:12px;left:12px;z-index:6;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);font:inherit}
+.hero,.home-hero{flex-direction:column;text-align:center}h1{font-size:32px}.home-hero h1{font-size:34px}}
+</style></head><body>
+<button id="menu" onclick="document.getElementById('side').classList.toggle('open')">☰ Menu</button>
+<nav id="side"><a class="brand" href="index.html"><img src="img/logo.png" alt=""><span>iFoderi<small>Wiki RPG</small></span></a>
+<input id="q" placeholder="Cerca una pagina…" oninput="flt(this.value)" aria-label="Cerca">
+<div class="grp">Il server</div>
+<a class="nl" href="index.html"><img src="img/logo.png" alt="">Home</a>
+<a class="nl" href="crediti.html"><i class="dot"></i>Crediti</a>
+<div class="grp">Guida</div>
+<a class="nl" href="guida-per-iniziare.html"><i class="dot"></i>Per iniziare</a>
+<a class="nl" href="guida-le-classi.html"><i class="dot"></i>Le classi</a>
+<a class="nl" href="guida-livelli-e-schede.html"><i class="dot"></i>Livelli e schede</a>
+<a class="nl" href="guida-combattere.html"><i class="dot"></i>Combattere</a>
+<a class="nl on" href="guida-forgiatura-bastoni-e-bacchette.html"><i class="dot"></i>Forgiatura, bastoni e bacchette</a>
+<a class="nl" href="guida-archi-unici-potenziamenti.html"><i class="dot"></i>Archi unici (potenziamenti)</a>
+<a class="nl" href="guida-corruzione-lato-oscuro.html"><i class="dot"></i>Corruzione (lato oscuro)</a>
+<a class="nl" href="guida-missioni.html"><i class="dot"></i>Missioni</a>
+<a class="nl" href="guida-raid.html"><i class="dot"></i>Raid</a>
+<a class="nl" href="guida-la-torre.html"><i class="dot"></i>La Torre</a>
+<a class="nl" href="guida-dungeon-e-boss.html"><i class="dot"></i>Dungeon e boss</a>
+<a class="nl" href="guida-mercanti-di-67city.html"><i class="dot"></i>Mercanti di 67city</a>
+<a class="nl" href="guida-gilde.html"><i class="dot"></i>Gilde</a>
+<a class="nl" href="guida-gruppo-party.html"><i class="dot"></i>Gruppo (party)</a>
+<a class="nl" href="guida-zaino-e-bauli.html"><i class="dot"></i>Zaino e bauli</a>
+<a class="nl" href="guida-viaggiare.html"><i class="dot"></i>Viaggiare</a>
+<a class="nl" href="guida-mostri-da-conoscere.html"><i class="dot"></i>Mostri da conoscere</a>
+<a class="nl" href="guida-comandi-utili.html"><i class="dot"></i>Comandi utili</a>
+<a class="nl" href="guida-titoli.html"><i class="dot"></i>Titoli</a>
+<a class="nl" href="guida-regole-in-breve.html"><i class="dot"></i>Regole in breve</a>
+<div class="grp">Classi</div>
+<a class="nl" href="classe-warrior.html"><img src="img/classi/warrior.png" alt="">Guerriero</a>
+<a class="nl" href="classe-barbarian.html"><img src="img/classi/barbarian.png" alt="">Barbaro</a>
+<a class="nl" href="classe-tank.html"><img src="img/classi/tank.png" alt="">Templare</a>
+<a class="nl" href="classe-ranger.html"><img src="img/classi/ranger.png" alt="">Ranger</a>
+<a class="nl" href="classe-rogue.html"><img src="img/classi/rogue.png" alt="">Ladro</a>
+<a class="nl" href="classe-mage.html"><img src="img/classi/mage.png" alt="">Mago</a>
+<a class="nl" href="classe-sorcerer.html"><img src="img/classi/sorcerer.png" alt="">Stregone</a>
+<a class="nl" href="classe-cleric.html"><img src="img/classi/cleric.png" alt="">Chierico</a>
+<div class="grp">Schede</div>
+<a class="nl" href="scheda-mining.html"><i class="dot"></i>Minatore</a>
+<a class="nl" href="scheda-costruttore.html"><i class="dot"></i>Costruttore</a>
+<a class="nl" href="scheda-raccolta.html"><i class="dot"></i>Lavoratore</a>
+<a class="nl" href="scheda-domatore.html"><i class="dot"></i>Domatore</a>
+<a class="nl" href="scheda-alchimista.html"><i class="dot"></i>Alchimista</a>
+<a class="nl" href="scheda-casino.html"><i class="dot"></i>Ludopatico</a>
+<div class="grp">Elenchi</div>
+<a class="nl" href="oggetti.html"><img src="img/oggetti/bastone_dei_serafini.png" alt="">Oggetti e armi</a>
+<a class="nl" href="missioni.html"><img src="img/oggetti/pergamena_dell_oblio.png" alt="">Missioni</a>
+<a class="nl" href="mercanti.html"><img src="img/oggetti/fiche_100.png" alt="">Mercanti</a>
+<a class="nl" href="raid.html"><img src="img/oggetti/corno_re_demoni.png" alt="">Raid</a>
+<a class="nl" href="forgia.html"><img src="img/oggetti/forgia_icona.png" alt="">Armi forgiate</a>
+<a class="nl" href="speciali.html"><img src="img/oggetti/speciali_icona.png" alt="">Armi uniche</a>
+<a class="nl" href="finale.html"><img src="img/oggetti/finale_icona.png" alt="">Il mondo del Litte</a>
+<a class="nl" href="magia.html"><img src="img/oggetti/bacchetta_icona.png" alt="">Bastoni e bacchette</a></nav><main><h1>Forgiatura, bastoni e bacchette</h1><div class="card"><p>Banco di forgiatura (asse, tavolo da lavoro, asse / ferro, incudine, ferro / asse, vuoto, asse): componi la tua arma scegliendo lama, materiale, elsa, impugnatura e, se vuoi, una gemma da incastonare nell&#x27;elsa. Le armi si possono smontare (rendono un terzo dei materiali), cambiare elsa e impugnatura, o ricevere una gemma nuova (quella vecchia si perde). Alla fine si batte il ferro sull&#x27;incudine: colpisci quando il cursore passa nella zona rovente; più sei preciso, migliore è il grado dell&#x27;arma. Con i materiali più rari è più difficile.</p><p>Gemme dell&#x27;elsa: Smeraldo (a volte i rovi bloccano il nemico), Diamante (critici più forti, a volte passa l&#x27;armatura), Ametista (ogni 4 colpi sullo stesso nemico lo stordisce), Lapislazzuli (marchia il nemico, che prende più danni da tutti), Redstone (a volte una scarica salta ai nemici vicini), Quarzo (ogni colpo ti ridà un po&#x27; di mana), Eco (il colpo torna come un&#x27;eco), Prismarino (spinge via e a volte rallenta), Stella del Nether (a volte una stella cade sul nemico).</p><p>Sulle armi epiche la lama si trasforma secondo la gemma e la gemma dà anche un potere col tasto destro, diverso per ogni gemma e cambiato dalla lama: il falcione lo rende più forte e largo, lo stocco più lontano, la sciabola ricarica prima, la seghettata fa sanguinare.</p><p>Espansione del dominio (armi epiche con gemma, accovacciato + destro): si apre una cupola intorno a te che cambia cielo e terreno. Chi è dentro non può uscire e da fuori non si entra (i compagni passano), ogni pochi secondi il potere della gemma colpisce tutti i nemici dentro e i tuoi poteri fanno di più. Dura poco e si ricarica in molto tempo. Dove il PvP è spento i giocatori non vengono chiusi né colpiti.</p><p>Tavolo arcano (libro in alto; ametista, essenza arcana, ametista; assi di quercia scura ai lati in basso): per Mago, Stregone e Chierico. È largo due blocchi con lo schienale alto; davanti puoi mettere lo sgabello arcano e sederti. Scegli la forma del bastone, il materiale e la pietra, poi fai il rituale: tre rune si accendono una alla volta, ognuna con la sua nota, e devi ripeterle cliccandole (con &quot;Riascolta&quot; le senti di nuovo). Senza errori il rituale è perfetto e l&#x27;oggetto è più forte; con un errore riesce lo stesso; con due errori fallisce e la pietra si spezza (il resto non lo perdi).</p><p>Bastoni: col tasto sinistro lanci l&#x27;attacco della pietra (costa poco mana e si ricarica in fretta; i raggi continui consumano mana finché li tieni), col destro lanci l&#x27;incantesimo scelto nella ruota (va bene anche il solito tasto).</p><p>Attacchi delle pietre: Fuoco (palla di fuoco che esplode e incendia), Ghiaccio (cristallo che rallenta e a volte congela un attimo), Fulmine (raggio elettrico continuo finché tieni premuto), Natura (seme che rallenta un po&#x27;), Sacro (raggio di luce continuo che cura i compagni che attraversa), Arcano (tre globi che inseguono), Evocazione (spiriti che corrono ed esplodono), Vuoto (sfera nera che attira e poi implode), Sangue (pioggia di sangue), Smeraldo (schegge; chi muore lascia un germoglio), Diamante (lancia che trapassa, a volte critica), Ametista (stordisce chi è vicino), Lapislazzuli (marchia il bersaglio), Redstone (scarica rossa continua che salta tra i nemici), Quarzo (una scheggia di quarzo cade sulla testa del bersaglio e ti ridà mana), Eco (onda sonica ad anelli), Prismarino (getto d&#x27;acqua che spinge), Stella del Nether (stella cadente).</p><p>Forme dei bastoni: dritto (un colpo preciso), ricurvo (colpo caricato, più forte e più lento), spirale (raffica di 3), quattro punte (il colpo rallenta), biforcuto (due colpi a ventaglio), dell&#x27;Orbe (il più difficile da forgiare: più potere, più mana e ricariche più brevi).</p><p>Bacchetta (Mago e Stregone): al Tavolo arcano la bacchetta sceglie il mago in base a come giochi. È tua per sempre e resta sempre nella barra rapida; col sinistro lanci i suoi colpi, tenendo premuto il destro disegni un simbolo per i suoi incantesimi.</p><p>Materiali: dal legno e dal ferro fino ai lingotti dei boss e all&#x27;acciaio di drago. Più sono rari, più serve un livello alto e più il rituale è difficile.</p><p>Pietre delle scuole (Fuoco, Ghiaccio, Fulmine, Natura, Sacro, Arcano, Evocazione): più potere a quella scuola. La pietra Sacra è solo del Chierico; Vuoto e Sangue rispondono solo ai corrotti.</p><p>Minerali con un potere sugli incantesimi: Smeraldo (chi uccidi con la magia lascia un germoglio che ferisce i nemici vicini), Diamante (critici), Ametista (a volte niente ricarica), Lapislazzuli (più esperienza), Redstone (ricariche più brevi), Quarzo (più mana), Frammento d&#x27;eco (a volte l&#x27;incantesimo è gratis), Prismarino (più forte sott&#x27;acqua, e respiri), Stella del Nether (più potere in tutte le scuole).</p></div><footer>Wiki generata dai file della mod iFoderi RPG · server iFoderi</footer></main><script>function flt(v){v=v.toLowerCase();document.querySelectorAll('.nl').forEach(a=>{a.style.display=a.textContent.toLowerCase().includes(v)?'':'none'})}</script></body></html>
