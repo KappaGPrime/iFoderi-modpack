@@ -1,0 +1,8 @@
+name = "Diegesis"
+filename = "diegesis-forge-1.20.1-1.0.0-beta.10.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/KappaGPrime/iFoderi-modpack/main/librerie/diegesis-forge-1.20.1-1.0.0-beta.10.jar"
+hash-format = "sha512"
+hash = "eb1106de78f67e95e3249e7ca6b862751047d5194b25a4d5d5c533f01a15d5b4580190176f67d665438e0545cda02b85af27ba8ee4ece8401249f66972e169f2"

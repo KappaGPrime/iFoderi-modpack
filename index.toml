@@ -154,6 +154,11 @@ hash = "b941a1703047e439763857e42f2fad0995f6c03e0733e23e8539dfdc92aeb980"
 metafile = true
 
 [[files]]
+file = "mods/diegesis.pw.toml"
+hash = "0adebdd84d29c8d162007e4692dc0ff940270211c2fc5460c2e8133eae54f8f1"
+metafile = true
+
+[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "4cb7a882dfc2cb0e8802947d6859a1dddccd73b9d95d47b08b58d774c7b786be"
 metafile = true
@@ -261,6 +266,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "b63ca06be5e97ab399724ba6e1de3f34c7803b4b0b71c1759d1f158e997ea752"
+metafile = true
+
+[[files]]
+file = "mods/handson-delight.pw.toml"
+hash = "0ab4e70a99e94fee11440519efdd917a2fbbdc2777e4f0d1e9e67d150362f069"
 metafile = true
 
 [[files]]

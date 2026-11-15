@@ -1,0 +1,8 @@
+name = "Hands-On Delight"
+filename = "handson_delight-forge-1.20.1-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/KappaGPrime/iFoderi-modpack/main/librerie/handson_delight-forge-1.20.1-1.5.0.jar"
+hash-format = "sha512"
+hash = "11b76e171c8a4e0530a194af7c4709d5377bdbf04c3577482ef70b075fcc79d18acc26813ad34967e019238c04f48096e846f11ad8ac99708683a0cad6c2fbdd"
